@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProductFragment">
+    <com.google.android.material.carousel.MaskableFrameLayout
+        android:id="@+id/carousel_item_container"
+        android:layout_width="411dp"
+        android:layout_height="200dp"
+
+        android:layout_marginTop="64dp"
+        android:foreground="?attr/selectableItemBackground"
+        app:shapeAppearance="?attr/shapeAppearanceCornerExtraLarge">
+
+        <ImageView
+            android:id="@+id/carousel_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/offer" />
+    </com.google.android.material.carousel.MaskableFrameLayout>
+
+    <!-- Product Section -->
+    <TextView
+        android:id="@+id/tvProductTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Products"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="8dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/prodcutList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp" />
+
+
+</LinearLayout>

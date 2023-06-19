@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="74dp"
+    tools:context=".HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:background="@color/browser_actions_bg_grey"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        >
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginLeft="40dp"
+            >
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="April 16"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="@color/lightgreen"
+
+                android:padding="5dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Monday"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textColor="@color/lightgreen"
+
+                android:padding="5dp">
+
+            </TextView>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11:24 PM"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="40dp"
+            android:textSize="20sp"
+            android:textColor="@color/lightgreen"
+
+            >
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        >
+
+        <TextView
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Location :"
+            android:textColor="@color/lightgreen"
+            android:textSize="16sp">
+
+        </TextView>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="0dp"
+            android:background="@color/white"
+            android:hint="Enter City Name"
+            app:startIconContentDescription="content_description_start_icon">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="236dp"
+                android:layout_height="wrap_content" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ImageButton
+            android:id="@+id/citySearch"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="6dp"
+            android:background="@color/lightgreen"
+            android:contentDescription="A tiny Android icon"
+            android:src="@drawable/search"
+            app:tint="@color/black"></ImageButton>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/browser_actions_bg_grey"
+        android:layout_marginTop="10dp"
+        android:padding="40dp">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kochi"
+                android:textColor="@color/lightgreen"
+                android:textSize="20sp">
+
+            </TextView>
+            <TextView
+                android:id="@+id/temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="16\u00B0C"
+                android:textColor="@color/lightgreen"
+                android:textSize="60sp">
+
+            </TextView>
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="179dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="Partialy Cloud"
+                android:textColor="@color/lightgreen"
+                android:textSize="25sp">
+
+            </TextView>
+            <TextView
+                android:id="@+id/wind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/lightgreen"
+                android:text="Wind : 8 Km/h ,100\u00B0"
+                android:textSize="15sp">
+
+            </TextView>
+            <TextView
+                android:id="@+id/pressure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pressure : 1008 hPa"
+                android:textColor="@color/lightgreen"
+                android:textSize="15sp">
+
+            </TextView>
+            <TextView
+                android:id="@+id/humidity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Humidity : 50 %"
+                android:textColor="@color/lightgreen"
+                android:textSize="15sp">
+
+            </TextView>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+    </LinearLayout>
+    <!-- Product Section -->
+
+
+
+</LinearLayout>

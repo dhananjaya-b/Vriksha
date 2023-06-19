@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:icon="@drawable/home"
+        android:title="Home"/>
+    <item
+        android:id="@+id/acction_news"
+        android:enabled="true"
+        android:icon="@drawable/newspaper"
+        android:title="News"/>
+    <item
+        android:id="@+id/action_scheme"
+        android:enabled="true"
+        android:icon="@drawable/diagram"
+        android:title="Schemes"/>
+    <item
+        android:id="@+id/action_buy"
+        android:enabled="true"
+        android:icon="@drawable/tractor"
+        android:title="Buy"/>
+    <item
+        android:id="@+id/action_user"
+        android:enabled="true"
+        android:icon="@drawable/user"
+        android:title="Profile"/>
+</menu>

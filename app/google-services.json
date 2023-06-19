@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "61184158081",
+    "project_id": "vriksha-dcc0b",
+    "storage_bucket": "vriksha-dcc0b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61184158081:android:0591bad67bbfd6f9cae080",
+        "android_client_info": {
+          "package_name": "com.example.vriksha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "61184158081-9et8cb7ugrhljkhetd62akrjq9g5bd7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDP4coej65RCFPMNE4NeKpLC70CwW74JX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "61184158081-9et8cb7ugrhljkhetd62akrjq9g5bd7o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
